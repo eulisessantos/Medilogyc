@@ -212,6 +212,4 @@ export const api = {
   activarUsuario: (id: number) =>
     apiRequest<string>(`/usuarios/${id}/activar`, { method: 'PUT' }),
 
-  desactivarUsuario: (id: number) =>
-    apiRequest<string>(`/usuarios/${id}/desactivar`, { method: 'PUT' }),
 };
