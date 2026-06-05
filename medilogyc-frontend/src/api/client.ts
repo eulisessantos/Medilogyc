@@ -211,5 +211,4 @@ export const api = {
 
   activarUsuario: (id: number) =>
     apiRequest<string>(`/usuarios/${id}/activar`, { method: 'PUT' }),
-
 };
